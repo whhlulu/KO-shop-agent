@@ -1,0 +1,367 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+body {
+    width: 100%;
+    font-size: 12px;
+    background: #fff;
+    font-weight: normal;
+    color: #a4a5a7;
+}
+
+/* chorme 浏览器记住密码后input黄色背景处理方法 */
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+    -webkit-text-fill-color: #ededed !important;
+    -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+    background-color: transparent;
+    background-image: none;
+    transition: background-color 50000s ease-in-out 0s;
+    /*背景色透明  生效时长  过渡效果  启用时延迟的时间   */
+}
+
+input {
+    background-color: transparent;
+}
+
+/* 全局tab样式 */
+
+.el-table__empty-block {
+    height: 0;
+}
+
+img {
+    vertical-align: top;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    box-sizing: content-box;
+    font-family: '微软雅黑';
+}
+
+.size18 {
+    font-size: 18px;
+}
+
+.size16 {
+    font-size: 16px;
+}
+
+.size14 {
+    font-size: 14px;
+}
+
+.size12 {
+    font-size: 12px;
+}
+
+a:focus,
+a:hover {
+    color: #666;
+    border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+input,
+select,
+textarea,
+button {
+    outline: 0 none;
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+ul,
+ol,
+dl,
+dt,
+dd {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+i,
+em {
+    font-style: normal;
+}
+
+b,
+strong {
+    font-weight: normal;
+}
+
+img {
+    vertical-align: top;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 0;
+    font-size: 12px;
+}
+
+/*清除默认样式*/
+
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+/*手形*/
+
+.hand {
+    cursor: pointer;
+}
+
+.black {
+    color: #333;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/*禁止*/
+
+.prohibit {
+    cursor: not-allowed;
+}
+
+/*
+=============
+背景颜色
+=============
+*/
+
+/*安全色*/
+
+.progress-bar-security {
+    background-color: #337ab7;
+}
+
+/*警告*/
+
+.progress-bar-warning {
+    background-color: #f0ad4e;
+}
+
+/*危险*/
+
+.progress-bar-danger {
+    background-color: #d9534f;
+}
+
+/*
+========================
+布局 文本
+========================
+*/
+
+/*文字居中*/
+
+.text-center {
+    text-align: center;
+}
+
+/*文字左对齐*/
+
+.text-left {
+    text-align: left;
+}
+
+/*文字右对齐*/
+
+.text-right {
+    text-align: right;
+}
+
+/*转块*/
+
+.block {
+    display: block;
+}
+
+/*转行内块*/
+
+.inline-block {
+    display: inline-block
+}
+
+/*转行内*/
+
+.inline {
+    display: inline;
+}
+
+/*隐藏元素*/
+
+.hide {
+    display: none;
+}
+
+/*内容隐藏*/
+
+.hidden {
+    visibility: hidden;
+}
+
+/*内容可视*/
+
+.show {
+    visibility: visible;
+}
+
+/*单行文本溢出隐藏*/
+
+.text-single-hidden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.text1-hidden {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+/*2行文本溢出隐藏*/
+
+.text2-hidden {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+/*3行文本溢出隐藏*/
+
+.text3-hidden {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+/*4行文本溢出隐藏*/
+
+.text4-hidden {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+
+.el-button--success,
+.el-switch.is-checked .el-switch__core,
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner {
+        background-color: #f7bc0a !important;
+        border-color: #f7bc0a !important;
+}
+.el-pagination.is-background .el-pager li.active{
+    border: 1px solid #f7bc0a;
+    box-sizing: border-box;
+    background-color:#f7bc0a !important;
+}
+.el-pagination.is-background .el-pager li:hover{
+    background-color: #fff !important;
+    border: 1px solid #f7bc0a;
+    box-sizing: border-box;
+
+}
+.el-checkbox__input.is-checked+.el-checkbox__label,
+.el-pagination.is-background .btn-next,
+.el-pagination.is-background .btn-prev,
+.el-pagination.is-background .el-pager li:hover{
+    color: #f7bc0a !important;
+}
+.el-radio.is-bordered.is-checked,
+.el-radio__input.is-checked+.el-radio__label {
+    color: #f7bc0a !important;
+    border-color: #f7bc0a !important;
+
+}
+.el-radio__input.is-checked .el-radio__inner{
+    border-color: #f7bc0a !important;
+    background: #f7bc0a !important;
+}
+.el-button:hover{
+    background-color: #fff!important;
+    color: #f7bc0a!important;
+}
+.shop_name {
+    width: 25%!important;
+    float: left;
+    padding-left: 32px;
+    
+}
+.shop_name .name {
+    display: block;
+    float: left;
+    padding-left: 25px;
+    padding-top: 20px;
+  
+}
+.shop_name .name span {
+    width: 140px!important;
+    line-height:22px!important;
+    height: 44px!important;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
