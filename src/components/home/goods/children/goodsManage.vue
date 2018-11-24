@@ -168,7 +168,7 @@ export default {
 
 	methods: {
 		toShop(id) {
-			window.open('http://b2b2c.youyoulegou.cn/#/inroyaldrink/' + id);
+			window.open('http://b2b2c.fzxbwl.com/#/inroyaldrink/' + id);
 		},
 		delItem(id) {
 			this.$confirm('此操作将永久删除此商品，是否继续？', '提示', {

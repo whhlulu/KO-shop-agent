@@ -1,5 +1,5 @@
-const request = 'http://sapi.youyoulegou.cn/';
-const imgRequest = "http://center.youyoulegou.cn/";
+const request = 'http://sapi.fzxbwl.com/';
+const imgRequest = "http://center.fzxbwl.com/";
 const uploadImage = 'upload.php/';
 const config = {
 

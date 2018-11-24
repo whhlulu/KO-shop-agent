@@ -1,4 +1,4 @@
-window.API_URL = 'http://sapi.youyoulegou.cn';
+window.API_URL = 'http://sapi.fzxbwl.com';
 (function(w) {
 
     //截取当前访问者的url 参数

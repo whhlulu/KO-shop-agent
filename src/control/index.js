@@ -12,7 +12,7 @@ const state = { //创建数据仓库
     upload_show: false, //上传图片 遮罩层状态
     mask_show: false, // 创建相册遮罩层初始状态
     add_region: false, //添加地区开关
-    image_api_url: "http://center.youyoulegou.cn/upload.php/",
+    image_api_url: "http://center.fzxbwl.com/upload.php/",
     lcal_image_path: "http://localhost:8080/",
     header_title: null,
     imgurl: '',
